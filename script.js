@@ -3,7 +3,7 @@ const getSumBtn = document.createElement("button");
 getSumBtn.append("Get Total Price");
 document.body.appendChild(getSumBtn);
 const table = document.querySelector("table")
-	const price = document.querySelectorAll('.price')
+	const price = document.querySelectorAll('[data-ns-test="prices"]')
 	const td = document.createElement("tr")
     let tp = Array.from(price);
 	let sum = 0;
