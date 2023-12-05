@@ -4,7 +4,7 @@ getSumBtn.append("Get Total Price");
 document.body.appendChild(getSumBtn);
 const table = document.querySelector("table")
 function getSum() {
-	const price = document.querySelectorAll('[data-ns-test="prices"]')
+	const price = document.querySelectorAll('[data-ns-test="price"]')
 	const tr = document.createElement("tr")
 	const td1 =  document.createElement("td");
 	// const td2 =  document.createElement("td");
